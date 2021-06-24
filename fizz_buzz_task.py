@@ -2,7 +2,7 @@ a = int(input("What number would you like to substitute for Fizz?  ")) # prompts
 b = int(input("What number would you like to substitute for Buzz?  "))
 
 for i in range (100): #runs below code loop 100 times
-    if i % a == 0 and i % b == 0: # first checks for muliples of a AND b as cannot check this after i has been changed
+    if i % a == 0 and i % b == 0: # first checks for multiples of a AND b as cannot check this after i has been changed
         i = "FizzBuzz" # substitutes for string and prints the string
         print(i)
     elif i % a == 0: # checks just a
